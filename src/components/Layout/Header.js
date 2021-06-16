@@ -12,7 +12,7 @@ const Header = () => {
   return <Fragment>
     <header className={classes.header}>
       <h1>ReactMeals</h1>
-      <HeaderButton/>
+      <HeaderButton>Your Cart</HeaderButton>
     </header>
     <div className={classes["main-image"]}>
       <img src={headerMealImage} alt="Table of food"/>

@@ -4,7 +4,7 @@ import Header from "./components/Layout/Header";
 function App() {
   return (
     <Fragment>
-      <Header/>
+      <Header/> 
       <div>
         <h2>Let's get started!</h2>
       </div>
