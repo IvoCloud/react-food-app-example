@@ -1,7 +1,7 @@
 import classes from './HeaderCartButton.module.css';
 import CartIcon from '../Features/Cart/CartIcon'
 
-export default HeaderCartButton = props => {
+const HeaderCartButton = props => {
   return <button className={classes.button}>
     <span className={classes.icon}>
       <CartIcon/>
@@ -12,3 +12,5 @@ export default HeaderCartButton = props => {
     </span>
   </button>
 };
+
+export default HeaderCartButton;
