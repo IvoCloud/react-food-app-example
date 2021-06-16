@@ -1,4 +1,4 @@
-export default dummy_db = [
+const dummy_db = [
   {
     id: "m1",
     name: "Sushi",
@@ -24,3 +24,5 @@ export default dummy_db = [
     price: 18.99,
   },
 ];
+
+export default dummy_db;
